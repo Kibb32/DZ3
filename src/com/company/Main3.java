@@ -19,22 +19,22 @@ public class Main3 {
         double max = 0;
         double min = 0;
 
-        if (zp1 > zp2 && zp1 > zp3) {
+        if (zp1 >= zp2 && zp1 >= zp3) {
             max = zp1;
         }
-        if (zp2 > zp1 && zp2 > zp3) {
+        if (zp2 >= zp1 && zp2 >= zp3) {
             max = zp2;
         }
-        if (zp3 > zp1 && zp3 > zp1)  {
+        if (zp3 >= zp1 && zp3 >= zp1)  {
             max = zp3;
         }
-        if (zp1 < zp3 && zp1 < zp2) {
+        if (zp1 <= zp3 && zp1 <= zp2) {
             min = zp1;
         }
-        if (zp2 < zp1 && zp2 < zp3) {
+        if (zp2 <= zp1 && zp2 <= zp3) {
             min = zp2;
         }
-        if (zp3 < zp2 && zp3 < zp1) {
+        if (zp3 <= zp2 && zp3 <= zp1) {
             min = zp3;
         }
 
